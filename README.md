@@ -91,8 +91,6 @@ Operating system utilities | System processes, screen shot, ...
 
 <h4 id="new-classes"><a href="#top">New classes</a></h4>
 
-## New classes
----------------------------
 * Tables				-> Give tools to manipulate and work with jtables.
 * ExcelFile				-> An entity for excel file.
 * PdfFile				-> An entity for pdf file.
