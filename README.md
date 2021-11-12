@@ -35,7 +35,6 @@ Operating system utilities | System processes, screen shot, ...
 </br>
 
 ### Changes
-
 * Change console background colors names.
 * Change OperatingSystem class name to OSTools.
 * Change isMac method name to isMacOs in OSTools.
@@ -43,17 +42,13 @@ Operating system utilities | System processes, screen shot, ...
 * MessageBox class supports frame as parent and icon.
 * Better and more complete documentation of methods and classes.
 * New classes for exporting tables with more features.
-
 </br>
 
-### Fixed bugs<
-
+### Fixed bugs
 * MessageBox background color.
-
 </br>
 
-<h4 id="new-methods"><a href="#top">New methods</a></h4>
-
+### New methods
 * setWindowCenter (Swing)					-> Set window(frame or dialog) to the center of screen.
 * enableWindowEscClose (Swing)				-> Make window(frame or dialog) sensitive to ESC key and close by ESC.
 * makeWindowMovable (Swing)					-> Make window(frame or dialog) movable from anywhere on window except some components.
@@ -70,11 +65,9 @@ Operating system utilities | System processes, screen shot, ...
 * isKeyboardPersian	(OSTools)				-> Check the keyboard layout to be persian.
 * isKeyboardEnglish (OSTools)				-> Check the keyboard layout to be english.
 * getKeyboardLayout	(OSTools)				-> Get system current keyboard layout.
-
 </br>
 
-<h4 id="removed-methods"><a href="#top">Removed methods</a></h4>
-
+### Removed methods
 * setFrameCenter (Swing)
 * setDialogCenter (Swing)
 * setFrameCloseEsc (Swing)
@@ -86,11 +79,9 @@ Operating system utilities | System processes, screen shot, ...
 * countTableColumns (Swing)
 * getComponentPosition (Swing)
 * setComponentsDirection (Swing)
-
 </br>
 
-<h4 id="new-classes"><a href="#top">New classes</a></h4>
-
+### New classes
 * Tables				-> Give tools to manipulate and work with jtables.
 * ExcelFile				-> An entity for excel file.
 * PdfFile				-> An entity for pdf file.
