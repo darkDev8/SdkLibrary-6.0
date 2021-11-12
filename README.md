@@ -33,7 +33,7 @@ Operating system utilities | System processes, screen shot, ...
 
 </br>
 
-<h4 id="changes" style="font-weight: normal">Changes</h4>
+<h4 id="changes"><a href="#">Changes</a></h4>
 
 * Change console background colors names.
 * Change OperatingSystem class name to OSTools.
