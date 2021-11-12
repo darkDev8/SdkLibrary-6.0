@@ -12,7 +12,9 @@ Operating system utilities | System processes, screen shot, ...
 
 </br>
 
-![ERROR](/img/header.png) <br>
+<div align="center">
+ <img src="/img/header.png" alt="Logo" width="100" height="100" alt="ERROR">
+</div>
 
 </br>
 
