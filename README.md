@@ -12,8 +12,9 @@ Operating system utilities | System processes, screen shot, ...
 
 <!-- </br> -->
 
-<div align="left">
- <img src="/img/settings.gif" alt="ERROR">
+<div align="center">
+ <img src="/img/settings.png" alt="SETTINGS">
+  <img src="/img/java.png" alt="JAVA_LOGO">
 </div>
 
 </br>
