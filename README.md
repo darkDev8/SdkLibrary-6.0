@@ -44,11 +44,13 @@ Operating system utilities | System processes, screen shot, ...
 * Better and more complete documentation of methods and classes.
 * New classes for exporting tables with more features.
 
+</br>
 
 <h4 id="fixed-bugs"><a href="#top">Fixed bugs</a></h4>
 
 * MessageBox background color.
 
+</br>
 
 <h4 id="new-methods"><a href="#top">New methods</a></h4>
 
@@ -69,6 +71,8 @@ Operating system utilities | System processes, screen shot, ...
 * isKeyboardEnglish (OSTools)				-> Check the keyboard layout to be english.
 * getKeyboardLayout	(OSTools)				-> Get system current keyboard layout.
 
+</br>
+
 <h4 id="removed-methods"><a href="#top">Removed methods</a></h4>
 
 * setFrameCenter (Swing)
@@ -83,7 +87,10 @@ Operating system utilities | System processes, screen shot, ...
 * getComponentPosition (Swing)
 * setComponentsDirection (Swing)
 
+</br>
+
 <h4 id="new-classes"><a href="#top">New classes</a></h4>
+
 ## New classes
 ---------------------------
 * Tables				-> Give tools to manipulate and work with jtables.
@@ -92,4 +99,4 @@ Operating system utilities | System processes, screen shot, ...
 * JsonFile				-> An entity of json file.
 * Exporter (interface)	-> Give export method.
 * TableExportFactory	-> Generate an exporter to begin export.</br>
-
+* 
