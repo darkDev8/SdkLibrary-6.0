@@ -45,13 +45,13 @@ Operating system utilities | System processes, screen shot, ...
 * New classes for exporting tables with more features.
 
 
-## Fixed bugs
----------------------------
-* MessageBox background color.
-</br>
+<h4 id="fixed-bugs"><a href="#top">Fixed bugs</a></h4>
 
-## New methods
----------------------------
+* MessageBox background color.
+
+
+<h4 id="new-methods"><a href="#top">New methods</a></h4>
+
 * setWindowCenter (Swing)					-> Set window(frame or dialog) to the center of screen.
 * enableWindowEscClose (Swing)				-> Make window(frame or dialog) sensitive to ESC key and close by ESC.
 * makeWindowMovable (Swing)					-> Make window(frame or dialog) movable from anywhere on window except some components.
@@ -69,8 +69,8 @@ Operating system utilities | System processes, screen shot, ...
 * isKeyboardEnglish (OSTools)				-> Check the keyboard layout to be english.
 * getKeyboardLayout	(OSTools)				-> Get system current keyboard layout.
 
-## Removed methods
----------------------------
+<h4 id="removed-methods"><a href="#top">Removed methods</a></h4>
+
 * setFrameCenter (Swing)
 * setDialogCenter (Swing)
 * setFrameCloseEsc (Swing)
@@ -83,6 +83,7 @@ Operating system utilities | System processes, screen shot, ...
 * getComponentPosition (Swing)
 * setComponentsDirection (Swing)
 
+<h4 id="new-classes"><a href="#top">New classes</a></h4>
 ## New classes
 ---------------------------
 * Tables				-> Give tools to manipulate and work with jtables.
