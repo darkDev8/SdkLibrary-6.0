@@ -22,7 +22,7 @@ Operating system utilities | System processes, screen shot, ...
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#changes">Changes</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
