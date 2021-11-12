@@ -35,7 +35,6 @@ Operating system utilities | System processes, screen shot, ...
 </details>
 
 -----------
-</br>
 
 ### Changes
 * Change console background colors names.
