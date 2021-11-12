@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="margin : 20px">
  <img src="/img/api.png" alt="API">
  
  <h1> SdkLibrary 6.0 👑💙 </h1>
