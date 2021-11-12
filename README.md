@@ -49,6 +49,7 @@ Operating system utilities | System processes, screen shot, ...
 
 ### Installation
 Add this file to you're project and use it, you can also run the file.
+The library uses jdk +1.8, so there is nothing to be worry.
 
  ```sh
  cd export
