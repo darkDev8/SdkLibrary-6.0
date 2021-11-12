@@ -1,5 +1,5 @@
 <div align="center" style="margin : 20px">
- <img src="/img/api.png" alt="API" width="120px" height="120px">
+ <img src="/img/api.png" alt="API" width="100px" height="100px">
  
  <h1 style="text-decoration: none"> SdkLibrary 6.0 👑💙 </h1>
  
