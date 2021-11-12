@@ -23,7 +23,7 @@ Operating system utilities | System processes, screen shot, ...
 <details>
   <summary>Table of Contents</summary>
   <ul>
-    <li style="font-weight: bold"><a href="#changes">Changes</a></li>
+    <li><a href="#changes">Changes</a></li>
     <li><a href="#fixed-bugs">Fixed bugs</a></li>
     <li><a href="#new-methods">New methods</a></li>
     <li><a href="#removed-methods">Removed methods</a></li>
@@ -33,7 +33,7 @@ Operating system utilities | System processes, screen shot, ...
 
 </br>
 
-<h4 id="changes">Changes</h4>
+<h4 id="changes" style="font-weight: bold">Changes</h4>
 
 * Change console background colors names.
 * Change OperatingSystem class name to OSTools.
