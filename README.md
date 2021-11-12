@@ -4,9 +4,7 @@
  
  <h1 style="text-decoration: none"> SdkLibrary 6.0 👑💙 </h1>
  
-</div>
-
-</br>
+ </br>
 SdkLibrary helps people to develop java software faster and easier.
 </br>
 
@@ -18,6 +16,10 @@ Data types and structures | New data structures and tools
 Networking | Detect networks and utilities
 Security tools | Hashing, encryption, serialization 
 Operating system utilities | System processes, screen shot, ...
+ 
+</div>
+
+
 
 </br>
 
