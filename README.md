@@ -26,7 +26,7 @@ Operating system utilities | System processes, screen shot, ...
   <ul>
     <li><a href="#changes">Changes</a></li>
     <li><a href="#fixed-bugs">Fixed bugs</a></li>
-    <li><a href="#installation">Installation (run)</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#new-methods">New methods</a></li>
     <li><a href="#removed-methods">Removed methods</a></li>
     <li><a href="#new-classes">New classes</a></li>
@@ -47,8 +47,8 @@ Operating system utilities | System processes, screen shot, ...
 ### Fixed bugs
 * MessageBox background color.
 
-### Installation (run)
-Add this file to you're project and use it.
+### Installation
+Add this file to you're project and use it, you can also run the file.
 
  ```sh
  cd export
