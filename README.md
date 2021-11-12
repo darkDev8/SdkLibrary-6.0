@@ -33,7 +33,7 @@ Operating system utilities | System processes, screen shot, ...
    <li><a href="#me">Me</a></li>
   </ul>
 </details>
-
+-----------
 </br>
 
 ### Changes
@@ -56,7 +56,7 @@ The library uses **jdk +1.8**, so there is nothing to be worry.
  cd export
  java -jar sdk6.jar
  ```
-
+-----------
 ### New methods
 * setWindowCenter (Swing)					-> Set window(frame or dialog) to the center of screen.
 * enableWindowEscClose (Swing)				-> Make window(frame or dialog) sensitive to ESC key and close by ESC.
@@ -95,9 +95,8 @@ The library uses **jdk +1.8**, so there is nothing to be worry.
 * JsonFile				-> An entity of json file.
 * Exporter (interface)	-> Give export method.
 * TableExportFactory	-> Generate an exporter to begin export.</br>
-
+-----------
 
 ### Me
------------
 The library created by **darkDev8** </br>
 You can find previous version here.
