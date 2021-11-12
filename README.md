@@ -1,4 +1,10 @@
-# SdkLibrary 6.0 👑💙
+<div align="center">
+ <img src="/img/settings.png" alt="SETTINGS">
+  <img src="/img/java.png" alt="JAVA_LOGO">
+ 
+ <h2> SdkLibrary 6.0 👑💙 </h2>
+</div>
+
 SdkLibrary helps people to develop java software faster and easier.
 
 Feature | Description
@@ -12,10 +18,7 @@ Operating system utilities | System processes, screen shot, ...
 
 <!-- </br> -->
 
-<div align="center">
- <img src="/img/settings.png" alt="SETTINGS">
-  <img src="/img/java.png" alt="JAVA_LOGO">
-</div>
+
 
 </br>
 
