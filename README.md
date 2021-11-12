@@ -1,3 +1,4 @@
+<div id="top"></div>
 <div align="center" style="margin : 20px">
  <img src="/img/api.png" alt="API" width="100px" height="100px">
  
@@ -33,7 +34,7 @@ Operating system utilities | System processes, screen shot, ...
 
 </br>
 
-<h4 id="changes"><a href="">Changes</a></h4>
+<h4 id="changes"><a href="#top">Changes</a></h4>
 
 * Change console background colors names.
 * Change OperatingSystem class name to OSTools.
