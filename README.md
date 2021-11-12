@@ -1,10 +1,3 @@
- <style>
-  h4 {
-  color: red;
-  }
-  
- </style>
- 
 <div align="center" style="margin : 20px">
  <img src="/img/api.png" alt="API" width="100px" height="100px">
  
