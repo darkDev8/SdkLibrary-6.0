@@ -23,10 +23,9 @@ Operating system utilities | System processes, screen shot, ...
   <ol>
     <li><a href="#changes">Changes</a></li>
     <li><a href="#fixed-bugs">Fixed bugs</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#new-methods">New methods</a></li>
+    <li><a href="#removed-methods">Removed methods</a></li>
+    <li><a href="#new-classes">New classes</a></li>
   </ol>
 </details>
 
