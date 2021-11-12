@@ -1,7 +1,8 @@
 <div align="center" style="margin : 20px">
  <img src="/img/api.png" alt="API">
  
- <p style="font-size: 50px"> SdkLibrary 6.0 👑💙 </p>
+ <h1 style="text-decoration: none"> SdkLibrary 6.0 👑💙 </h1>
+ 
 </div>
 
 </br>
