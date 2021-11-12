@@ -10,10 +10,10 @@ Networking | Detect networks and utilities
 Security tools | Hashing, encryption, serialization 
 Operating system utilities | System processes, screen shot, ...
 
-</br>
+<!-- </br> -->
 
 <div align="center">
- <img src="/img/header.png" alt="Logo" width="400" height="350" alt="ERROR">
+ <img src="/img/header.png" alt="Logo" width="600" height="520" alt="ERROR">
 </div>
 
 </br>
