@@ -1,6 +1,5 @@
 <div align="center">
- <img src="/img/settings.png" alt="SETTINGS">
- <img src="/img/java.png" alt="JAVA_LOGO">
+ <img src="/img/api.png" alt="API">
  
  <h1> SdkLibrary 6.0 👑💙 </h1>
 </div>
