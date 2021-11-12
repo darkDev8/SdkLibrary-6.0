@@ -1,10 +1,11 @@
 <div align="center">
  <img src="/img/settings.png" alt="SETTINGS">
-  <img src="/img/java.png" alt="JAVA_LOGO">
+ <img src="/img/java.png" alt="JAVA_LOGO">
  
- <h2> SdkLibrary 6.0 👑💙 </h2>
+ <h1> SdkLibrary 6.0 👑💙 </h1>
 </div>
 
+</br>
 SdkLibrary helps people to develop java software faster and easier.
 
 Feature | Description
