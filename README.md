@@ -26,6 +26,7 @@ Operating system utilities | System processes, screen shot, ...
   <ul>
     <li><a href="#changes">Changes</a></li>
     <li><a href="#fixed-bugs">Fixed bugs</a></li>
+   <li><a href="#installation">Installation (run)</a></li>
     <li><a href="#new-methods">New methods</a></li>
     <li><a href="#removed-methods">Removed methods</a></li>
     <li><a href="#new-classes">New classes</a></li>
@@ -45,6 +46,13 @@ Operating system utilities | System processes, screen shot, ...
 
 ### Fixed bugs
 * MessageBox background color.
+
+### Installation (run)
+Add this file to you're project and use it.
+
+ ```sh
+ java -jar sdk6.jar
+ ```
 
 ### New methods
 * setWindowCenter (Swing)					-> Set window(frame or dialog) to the center of screen.
@@ -84,10 +92,3 @@ Operating system utilities | System processes, screen shot, ...
 * JsonFile				-> An entity of json file.
 * Exporter (interface)	-> Give export method.
 * TableExportFactory	-> Generate an exporter to begin export.</br>
-
-### Installation(run)
-Add this file to you're project and use it.
-
- ```sh
- java -jar sdk6.jar
- ```
