@@ -13,7 +13,7 @@ Operating system utilities | System processes, screen shot, ...
 <!-- </br> -->
 
 <div align="left">
- <img src="/img/java.gif" alt="ERROR">
+ <img src="/img/settings.gif" alt="ERROR">
 </div>
 
 </br>
