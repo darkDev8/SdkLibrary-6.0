@@ -23,7 +23,7 @@ Operating system utilities | System processes, screen shot, ...
 <details>
   <summary>Table of Contents</summary>
   <ul>
-    <li><a href="#changes">Changes</a></li>
+    <li style="font-weight: bold"><a href="#changes">Changes</a></li>
     <li><a href="#fixed-bugs">Fixed bugs</a></li>
     <li><a href="#new-methods">New methods</a></li>
     <li><a href="#removed-methods">Removed methods</a></li>
