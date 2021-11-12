@@ -33,16 +33,8 @@ Operating system utilities | System processes, screen shot, ...
 
 </br>
 
-<h3 id="changes"> come here </h4>
+<h3 id="changes">Changes</h4>
 
-</br>
-
-</br>
-
-</br>
-
-## Changesss
----------------------------
 * Change console background colors names.
 * Change OperatingSystem class name to OSTools.
 * Change isMac method name to isMacOs in OSTools.
@@ -50,6 +42,7 @@ Operating system utilities | System processes, screen shot, ...
 * MessageBox class supports frame as parent and icon.
 * Better and more complete documentation of methods and classes.
 * New classes for exporting tables with more features.
+
 
 ## Fixed bugs
 ---------------------------
