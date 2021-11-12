@@ -84,3 +84,10 @@ Operating system utilities | System processes, screen shot, ...
 * JsonFile				-> An entity of json file.
 * Exporter (interface)	-> Give export method.
 * TableExportFactory	-> Generate an exporter to begin export.</br>
+
+### Installation(run)
+Add this file to you're project and use it.
+
+ ```sh
+ java -jar sdk6.jar
+ ```
