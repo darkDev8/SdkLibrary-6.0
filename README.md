@@ -34,10 +34,7 @@ Operating system utilities | System processes, screen shot, ...
 
 </br>
 
-### a
-#### s
-
-<h4 id="changes"><a href="#top">Changes</a></h4>
+### Changes
 
 * Change console background colors names.
 * Change OperatingSystem class name to OSTools.
@@ -49,7 +46,7 @@ Operating system utilities | System processes, screen shot, ...
 
 </br>
 
-<h4 id="fixed-bugs"><a href="#top">Fixed bugs</a></h4>
+### Fixed bugs<
 
 * MessageBox background color.
 
