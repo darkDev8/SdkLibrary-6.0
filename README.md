@@ -42,11 +42,9 @@ Operating system utilities | System processes, screen shot, ...
 * MessageBox class supports frame as parent and icon.
 * Better and more complete documentation of methods and classes.
 * New classes for exporting tables with more features.
-</br>
 
 ### Fixed bugs
 * MessageBox background color.
-</br>
 
 ### New methods
 * setWindowCenter (Swing)					-> Set window(frame or dialog) to the center of screen.
@@ -65,7 +63,6 @@ Operating system utilities | System processes, screen shot, ...
 * isKeyboardPersian	(OSTools)				-> Check the keyboard layout to be persian.
 * isKeyboardEnglish (OSTools)				-> Check the keyboard layout to be english.
 * getKeyboardLayout	(OSTools)				-> Get system current keyboard layout.
-</br>
 
 ### Removed methods
 * setFrameCenter (Swing)
@@ -79,7 +76,6 @@ Operating system utilities | System processes, screen shot, ...
 * countTableColumns (Swing)
 * getComponentPosition (Swing)
 * setComponentsDirection (Swing)
-</br>
 
 ### New classes
 * Tables				-> Give tools to manipulate and work with jtables.
