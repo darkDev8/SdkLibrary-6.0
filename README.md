@@ -84,4 +84,3 @@ Operating system utilities | System processes, screen shot, ...
 * JsonFile				-> An entity of json file.
 * Exporter (interface)	-> Give export method.
 * TableExportFactory	-> Generate an exporter to begin export.</br>
-* 
