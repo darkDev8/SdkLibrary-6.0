@@ -26,7 +26,7 @@ Operating system utilities | System processes, screen shot, ...
   <ul>
     <li><a href="#changes">Changes</a></li>
     <li><a href="#fixed-bugs">Fixed bugs</a></li>
-   <li><a href="#installation">Installation (run)</a></li>
+    <li><a href="#installation">Installation (run)</a></li>
     <li><a href="#new-methods">New methods</a></li>
     <li><a href="#removed-methods">Removed methods</a></li>
     <li><a href="#new-classes">New classes</a></li>
@@ -51,6 +51,7 @@ Operating system utilities | System processes, screen shot, ...
 Add this file to you're project and use it.
 
  ```sh
+ cd export
  java -jar sdk6.jar
  ```
 
