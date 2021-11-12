@@ -20,13 +20,13 @@ Operating system utilities | System processes, screen shot, ...
 
 <details>
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
     <li><a href="#changes">Changes</a></li>
     <li><a href="#fixed-bugs">Fixed bugs</a></li>
     <li><a href="#new-methods">New methods</a></li>
     <li><a href="#removed-methods">Removed methods</a></li>
     <li><a href="#new-classes">New classes</a></li>
-  </ol>
+  </ul>
 </details>
 
 ## Changes
