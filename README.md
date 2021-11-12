@@ -96,6 +96,7 @@ The library uses **jdk +1.8**, so there is nothing to be worry.
 * Exporter (interface)	-> Give export method.
 * TableExportFactory	-> Generate an exporter to begin export.</br>
 
+
 ### Me
-The library created by **darkDev8**
+The library created by **darkDev8** </br>
 You can find previous version here.
