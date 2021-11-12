@@ -13,7 +13,7 @@ Operating system utilities | System processes, screen shot, ...
 </br>
 
 <div align="center">
- <img src="/img/header.png" alt="Logo" width="100" height="100" alt="ERROR">
+ <img src="/img/header.png" alt="Logo" width="400" height="350" alt="ERROR">
 </div>
 
 </br>
