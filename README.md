@@ -30,7 +30,7 @@ Operating system utilities | System processes, screen shot, ...
     <li><a href="#new-methods">New methods</a></li>
     <li><a href="#removed-methods">Removed methods</a></li>
     <li><a href="#new-classes">New classes</a></li>
-   <li><a href="#me">Me</a></li>
+   <li><a href="#me">Me 😈</a></li>
   </ul>
 </details>
 
