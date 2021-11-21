@@ -72,7 +72,7 @@ org.sdk6.swing | Swing tools, MessageBox and
 Add the jar file to you're project.Here is an example of MessageBox class and file path detection.
 </br>
 
-<img src="/img/usage.png" alt="Code usage" width="500px" height="500px">
+<img src="/img/usage.png" alt="Code usage">
  
 -----------
 ### Me 😈
