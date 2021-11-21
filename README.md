@@ -35,6 +35,13 @@ Operating system utilities | System processes, screen shot, ...
 
 ### Fixed bugs
 * MessageBox background color.
+* New file filters
+* Message Box buttons priority bug fixed
+* Removed Exporter interface and TableExportFactory class
+* Move DirectoryUtils class to new package (io.directories)
+* Updated file extensions.
+* More tools for working with MS Excel files
+
 
 ### Installation
 Add this file to you're project and use it, you can also run the file. </br>
