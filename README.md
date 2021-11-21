@@ -69,7 +69,7 @@ org.sdk6.swing | Swing tools, MessageBox and
 -----------
 
 ### Usages
-Add the jar file to you're project.Here is an example of MessageBox class and file path detection.
+Add the jar file to you're project.Here is an example of MessageBox class and check for file existance in hard disk using file detection.
 </br>
 
 <img src="/img/usage.png" alt="Code usage">
