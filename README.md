@@ -24,25 +24,14 @@ Operating system utilities | System processes, screen shot, ...
 <details>
   <summary>Table of Contents</summary>
   <ul>
-    <li><a href="#changes">Changes</a></li>
     <li><a href="#fixed-bugs">Fixed bugs</a></li>
     <li><a href="#installation">Installation</a></li>
-    <li><a href="#new-methods">New methods</a></li>
-    <li><a href="#removed-methods">Removed methods</a></li>
-    <li><a href="#new-classes">New classes</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#usages">Usages</a></li>
   </ul>
 </details>
 
 -----------
-
-### Changes
-* Change console background colors names.
-* Change OperatingSystem class name to OSTools.
-* Change isMac method name to isMacOs in OSTools.
-* FileDialog and MessageBox no longer inheritance Swing class.
-* MessageBox class supports frame as parent and icon.
-* Better and more complete documentation of methods and classes.
-* New classes for exporting tables with more features.
 
 ### Fixed bugs
 * MessageBox background color.
@@ -56,46 +45,33 @@ The library uses **jdk +1.8**, so there is nothing to be worry.
  java -jar sdk6.jar
  ```
 -----------
-### New methods
-* setWindowCenter (Swing)					-> Set window(frame or dialog) to the center of screen.
-* enableWindowEscClose (Swing)				-> Make window(frame or dialog) sensitive to ESC key and close by ESC.
-* makeWindowMovable (Swing)					-> Make window(frame or dialog) movable from anywhere on window except some components.
-* countTableRowsColumns (Swing)				-> Count the JTable rows or columns.
-* getComponentPosition (Swing)				-> Get component position in the window.
-* clearWindowComponents (Swing)				-> Clears text fields, labels and combo boxes in a form, dialog or panel.
-* setWindowComponentsDirection (Swing)		-> Change all components direction in a window or panel.
-* show (MessageBox)							-> Show the message box with title, message and message type.
-* setColumnHeaderPosition(Tables)			-> Set the table column header text position.
-* executeCommand (OSTools)					-> Execute a command in terminal and print output to text area.
-* Constructor (ArchiveFile)					-> Constructor of ArchiveFile class(Supports compression levels).
-* export (Exporter)							-> Export excel, pdf, json, ... files from a JTable object.
-* countItemsInText	(Strings)				-> Count words, characters, lines and spaces in the input text.
-* isKeyboardPersian	(OSTools)				-> Check the keyboard layout to be persian.
-* isKeyboardEnglish (OSTools)				-> Check the keyboard layout to be english.
-* getKeyboardLayout	(OSTools)				-> Get system current keyboard layout.
 
-### Removed methods
-* setFrameCenter (Swing)
-* setDialogCenter (Swing)
-* setFrameCloseEsc (Swing)
-* setDialogCloseEsc (Swing)
-* makeDialogMovable (Swing)
-* makeFrameMovable (Swing)
-* setTableDataModel (Swing)
-* countTableRows (Swing)
-* countTableColumns (Swing)
-* getComponentPosition (Swing)
-* setComponentsDirection (Swing)
+### Packages
 
-### New classes
-* Tables				-> Give tools to manipulate and work with jtables.
-* ExcelFile				-> An entity for excel file.
-* PdfFile				-> An entity for pdf file.
-* JsonFile				-> An entity of json file.
-* Exporter (interface)	-> Give export method.
-* TableExportFactory	-> Generate an exporter to begin export.</br>
+<div align="center" style="margin : 20px">
+ 
+Package name | Description
+------------ | ------------
+org.sdk6.structures | Data structures contains generic lists
+org.sdk6.types | Data types tools
+org.sdk6.database.connections | Sqlite, Mysql, Sql Server, MS Access connections
+org.sdk6.database.repositories | Classes and interfaces for searching, generate sql queries,...
+org.sdk6.io.base | Contains base interfaces for wroking with files
+org.sdk6.io.directories | Directory utilities
+org.sdk6.io.files | Tools for files(Text, Image, Pdf, Excel, Audio, Excel,...)
+org.sdk6.main | Main class of the library
+org.sdk6.net | Network tools and download progress utilities
+org.sdk6.security | Security tools for encryption and hashing
+org.sdk6.swing | Swing tools, MessageBox and 
+ 
+</div>
+
 -----------
 
+### Usages
+Add the jar file to you're project.Here is an example of MessageBox class and file path detection.
+<img src="/img/usage.png" alt="Code usage" width="500px" height="500px">
+ 
 ### Me 😈
 The library created by **darkDev8** </br>
 You can find previous version [here](https://github.com/mahdiDedsec/SdkLibrary-5.1.git).
