@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/AudioTag.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/checker-qual-3.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/commons-codec-1.15-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/commons-io-2.8.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/commons-lang3-3.12.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/error_prone_annotations-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/Excel.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/guava-30.1.1-jre.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/guava-testlib-30.1.1-jre.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/hsqldb-2.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/jackcess-3.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/jackcess-encrypt-4.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/mssql-jdbc-9.3.1.jre8-preview.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/mysql-connector-java-8.0.25.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/protobuf-java-3.11.4.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/rs2xml.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/Spire.Xls.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/sqlite-jdbc-3.20.1.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/ucanaccess-5.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/programming/projects/SdkLibrary-6.0-master/libs/zip4j-2.6.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,77 @@
+<div id="top"></div>
+<div align="center" style="margin : 20px">
+ <img src="/img/api.png" alt="API" width="100px" height="100px">
+ 
+ <h1 style="text-decoration: none"> SdkLibrary 6.0 👑💙 </h1>
+ 
+SdkLibrary helps people to develop java software faster and easier.
+</br>
+
+
+Feature | Description
+------------ | ------------
+Managing the database | Connecting and managing databases
+I/O operations | Open and manipulate files from computer
+Data types and structures | New data structures and tools
+Networking | Detect networks and utilities
+Security tools | Hashing, encryption, serialization 
+Operating system utilities | System processes, screen shot, ...
+ 
+</div>
+
+</br>
+
+<details>
+  <summary>Table of Contents</summary>
+  <ul>
+    <li><a href="#fixed-bugs">Fixed bugs</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#usages">Usages</a></li>
+  </ul>
+</details>
+
+-----------
+
+### Fixed bugs
+* MessageBox background color.
+
+### Installation
+Add this file to you're project and use it, you can also run the file. </br>
+The library uses **jdk +1.8**, so there is nothing to be worry.
+
+ ```sh
+ cd export
+ java -jar sdk6.jar
+ ```
+-----------
+
+### Packages
+
+<div align="center" style="margin : 20px">
+ 
+Package name | Description
+------------ | ------------
+org.sdk6.structures | Data structures contains generic lists
+org.sdk6.types | Data types tools
+org.sdk6.database.connections | Sqlite, Mysql, Sql Server, MS Access connections
+org.sdk6.database.repositories | Classes and interfaces for searching, generate sql queries,...
+org.sdk6.io.base | Contains base interfaces for wroking with files
+org.sdk6.io.directories | Directory utilities
+org.sdk6.io.files | Tools for files(Text, Image, Pdf, Excel, Audio, Excel,...)
+org.sdk6.main | Main class of the library
+org.sdk6.net | Network tools and download progress utilities
+org.sdk6.security | Security tools for encryption and hashing
+org.sdk6.swing | Swing tools, MessageBox and 
+ 
+</div>
+
+-----------
+
+### Usages
+Add the jar file to you're project.Here is an example of MessageBox class and file path detection.
+<img src="/img/usage.png" alt="Code usage" width="500px" height="500px">
+ 
+### Me 😈
+The library created by **darkDev8** </br>
+You can find previous version [here](https://github.com/mahdiDedsec/SdkLibrary-5.1.git).
