@@ -35,6 +35,15 @@ Operating system utilities | System processes, screen shot, ...
 
 ### Fixed bugs
 * MessageBox background color.
+* New file filters
+* Message Box buttons priority bug fixed
+* Removed Exporter interface and TableExportFactory class
+* Move DirectoryUtils class to new package (io.directories)
+* Updated file extensions.
+* More tools for working with MS Excel files
+
+### New features
+* Files encryption and decryption.
 
 ### Installation
 Add this file to you're project and use it, you can also run the file. </br>
@@ -69,9 +78,12 @@ org.sdk6.swing | Swing tools, MessageBox and
 -----------
 
 ### Usages
-Add the jar file to you're project.Here is an example of MessageBox class and file path detection.
-<img src="/img/usage.png" alt="Code usage" width="500px" height="500px">
+Add the jar file to you're project.Here is an example of MessageBox class and check for file existance in hard disk using file detection.
+</br>
+
+<img src="/img/usage.png" alt="Code usage">
  
+-----------
 ### Me 😈
 The library created by **darkDev8** </br>
 You can find previous version [here](https://github.com/mahdiDedsec/SdkLibrary-5.1.git).

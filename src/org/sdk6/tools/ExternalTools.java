@@ -356,11 +356,11 @@ public class ExternalTools {
 		}
 	}
 
-	public static String getDirectoryPath(String currentPath, String path) throws IOException {
+	public static String getDirectoryPath(String currentPath, String path, boolean printException) {
 		if (new OSTools().isWindows()) {
-			return getWindowsDirectoryPath(currentPath, path);
+			return getWindowsDirectoryPath(currentPath, path, printException);
 		} else {
-			return getUnixDirectoryPath(currentPath, path);
+			return getUnixDirectoryPath(currentPath, path, printException);
 		}
 	}
 
@@ -372,66 +372,186 @@ public class ExternalTools {
 		}
 	}
 
-	private static String getWindowsDirectoryPath(String currentPath, String path) throws IOException {
-		DirectoryUtils dUtils = new DirectoryUtils(path);
-		String newPath = null;
+	private static String getWindowsDirectoryPath(String currentPath, String path, boolean printException) {
+		try {
+			List<String> drives = new ArrayList<>();
+			drives.addAll(Arrays.asList(new OSTools().getPartitionsInfo("letter")));
 
-		if (path.contains("/")) {
+			if (path.contains("/")) {
+				return null;
+			}
+
+			if (path.equals(".")) {
+				return null;
+			}
+
+			if (path.equals("..")) {
+				if (drives.contains(currentPath)) {
+					return drives.get(drives.indexOf(currentPath));
+				} else {
+					return Paths.get(currentPath).toRealPath().getParent().toString();
+				}
+			} else {
+				if (path.startsWith("..")) {
+					String[] paths = path.split("\\\\");
+
+					for (String s : paths) {
+						if (s.equals("..")) {
+							currentPath = Paths.get(currentPath).toRealPath().getParent().toString();
+						} else {
+							if (currentPath.endsWith("\\")) {
+								currentPath = currentPath.concat(s);
+							} else {
+								currentPath = currentPath.concat("\\").concat(s);
+							}
+						}
+					}
+
+					if (Files.exists(Paths.get(currentPath)) && Files.isDirectory(Paths.get(currentPath))) {
+						return currentPath;
+					}
+
+					return null;
+				}
+
+				for (int i = 0; i < drives.size(); i++) {
+					if (drives.get(i).endsWith("\\")) {
+						drives.set(i, drives.get(i).substring(0, drives.get(i).length() - 1));
+					}
+				}
+
+				if (drives.contains(path)) {
+					return path.concat("\\");
+				} else {
+					if (path.startsWith("\\") || path.endsWith("\\")) {
+						return null;
+					} else {
+						int repeat = new Strings().countMatches(path, "\\", "\\", false);
+						if (repeat > 1) {
+							path = path.replace("\\".repeat(repeat), "\\");
+						}
+					}
+
+					if (Files.exists(Paths.get(path)) && Files.isDirectory(Paths.get(path))) {
+						return path;
+					} else {
+						if (currentPath.endsWith("\\")) {
+							currentPath = currentPath.concat(path);
+						} else {
+							currentPath = currentPath.concat("\\").concat(path);
+						}
+
+						if (Files.exists(Paths.get(currentPath)) && Files.isDirectory(Paths.get(currentPath))) {
+							return currentPath;
+						} else {
+							return null;
+						}
+					}
+				}
+			}
+		} catch (Exception e) {
+			if (printException) {
+				e.printStackTrace();
+			}
+
 			return null;
 		}
-		
-		if (dUtils.exists()) {
-			return dUtils.getDirectoryPath() + "\\" + dUtils.getName();
-		} else {
-			if (currentPath.endsWith("\\")) {
-				newPath = currentPath.concat(path);
-			} else {
-				newPath = currentPath.concat("\\").concat(path);
-			}
-
-			dUtils = new DirectoryUtils(newPath);
-			if (dUtils.exists()) {
-				return dUtils.getDirectoryPath() + "\\" + dUtils.getName();
-			}
-		}
-
-		return null;	
 	}
-	
-	private static  String getUnixDirectoryPath(String currentPath, String path) throws IOException {
-		DirectoryUtils dUtils = new DirectoryUtils(path);
-		String newPath = null;
 
-		if (path.contains("\\")) {
+	private static String getUnixDirectoryPath(String currentPath, String path, boolean printException) {
+		try {
+			List<String> drives = new ArrayList<>();
+			drives.addAll(Arrays.asList(new OSTools().getPartitionsInfo("letter")));
+
+			if (path.contains("\\")) {
+				return null;
+			}
+
+			if (path.equals(".")) {
+				return null;
+			}
+
+			if (path.equals("..")) {
+				if (drives.contains(currentPath)) {
+					return drives.get(drives.indexOf(currentPath));
+				} else {
+					return Paths.get(currentPath).toRealPath().getParent().toString();
+				}
+			} else {
+				if (path.startsWith("..")) {
+					String[] paths = path.split("/");
+
+					for (String s : paths) {
+						if (s.equals("..")) {
+							currentPath = Paths.get(currentPath).toRealPath().getParent().toString();
+						} else {
+							if (currentPath.endsWith("/")) {
+								currentPath = currentPath.concat(s);
+							} else {
+								currentPath = currentPath.concat("/").concat(s);
+							}
+						}
+					}
+
+					if (Files.exists(Paths.get(currentPath)) && Files.isDirectory(Paths.get(currentPath))) {
+						return currentPath;
+					}
+
+					return null;
+				}
+
+				for (int i = 0; i < drives.size(); i++) {
+					if (drives.get(i).endsWith("/")) {
+						drives.set(i, drives.get(i).substring(0, drives.get(i).length() - 1));
+					}
+				}
+
+				if (drives.contains(path)) {
+					return path.concat("/");
+				} else {
+					if (path.startsWith("\\") || path.endsWith("\\")) {
+						return null;
+					} else {
+						int repeat = new Strings().countMatches(path, "/", "/", false);
+						if (repeat > 1) {
+							path = path.replace("/".repeat(repeat), "/");
+						}
+					}
+
+					if (Files.exists(Paths.get(path)) && Files.isDirectory(Paths.get(path))) {
+						return path;
+					} else {
+						if (currentPath.endsWith("/")) {
+							currentPath = currentPath.concat(path);
+						} else {
+							currentPath = currentPath.concat("/").concat(path);
+						}
+
+						if (Files.exists(Paths.get(currentPath)) && Files.isDirectory(Paths.get(currentPath))) {
+							return currentPath;
+						} else {
+							return null;
+						}
+					}
+				}
+			}
+		} catch (Exception e) {
+			if (printException) {
+				e.printStackTrace();
+			}
+
 			return null;
 		}
-		
-		if (dUtils.exists()) {
-			return dUtils.getDirectoryPath() + "/" + dUtils.getName();
-		} else {
-			if (currentPath.endsWith("/")) {
-				newPath = currentPath.concat(path);
-			} else {
-				newPath = currentPath.concat("/").concat(path);
-			}
-
-			dUtils = new DirectoryUtils(newPath);
-			if (dUtils.exists()) {
-				return dUtils.getDirectoryPath() + "/" + dUtils.getName();
-			}
-		}
-
-		return null;	
 	}
 
-	private static  String getWindowsFilePath(String currentPath, String path) throws IOException {
+	private static String getWindowsFilePath(String currentPath, String path) throws IOException {
 		org.sdk6.io.files.FileUtils fUtils = new org.sdk6.io.files.FileUtils(path);
 		String newPath = null;
 
 		if (path.contains("/")) {
 			return null;
 		}
-		
+
 		if (fUtils.exists()) {
 			return fUtils.getDirectoryPath() + "\\" + fUtils.getName();
 		} else {
@@ -449,15 +569,15 @@ public class ExternalTools {
 
 		return null;
 	}
-	
-	private static  String getUnixFilePath(String currentPath, String path) throws IOException {
+
+	private static String getUnixFilePath(String currentPath, String path) throws IOException {
 		org.sdk6.io.files.FileUtils fUtils = new org.sdk6.io.files.FileUtils(path);
 		String newPath = null;
 
 		if (path.contains("\\")) {
 			return null;
 		}
-		
+
 		if (fUtils.exists()) {
 			return fUtils.getDirectoryPath() + "/" + fUtils.getName();
 		} else {
