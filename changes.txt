@@ -86,4 +86,3 @@ Add the jar file to you're project.Here is an example of MessageBox class and ch
 -----------
 ### Me 😈
 The library created by **darkDev8** </br>
-You can find previous version [here](https://github.com/mahdiDedsec/SdkLibrary-5.1.git).
